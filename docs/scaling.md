@@ -7,6 +7,9 @@
 - [Scalability, Availability & Stability Patterns](http://www.slideshare.net/jboner/scalability-availability-stability-patterns/)
 
 ## 📕 Articles
+- [8 Reasons Why WhatsApp Was Able to Support 50 Billion Messages a Day With Only 32 Engineers](https://newsletter.systemdesign.one/p/whatsapp-engineering)
+- [How Disney+ Hotstar Scaled to 25 Million Concurrent Users](https://newsletter.systemdesign.one/p/hotstar-scaling)
+- [How LinkedIn Scaled to 930 Million Users](https://newsletter.systemdesign.one/p/scalable-software-architecture)
 - [Scalability for Dummies - Part 1: Clones](https://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
 - [Scalability for Dummies - Part 2: Database](https://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
 - [Scalability for Dummies - Part 3: Cache](https://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
@@ -20,6 +23,13 @@
 - [How to scale projections in the event-driven systems?](https://event-driven.io/en/how_to_scale_projections_in_the_event_driven_systems/)
 - [Scaling services with Shard Manager](https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager/)
 - [Autoscaling](https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling)
+- [When Scaling Is Not An Option: A Simple Asynchronous Pattern](https://betterprogramming.pub/when-scaling-is-not-an-option-a-simple-asynchronous-pattern-c84215a695a2)
+- [Scaling Backend to 1M requests with just 2GB ram](https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c)
+- [System Design: How to Scale a Database](https://blog.algomaster.io/p/system-design-how-to-scale-a-database)
+- [Database Scaling](https://www.mongodb.com/resources/basics/scaling)
+- [How Discord Stores Trillions of Messages](https://discord.com/blog/how-discord-stores-trillions-of-messages)
+- [Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
+- [Thundering Herds & Promises](https://instagram-engineering.com/thundering-herds-promises-82191c8af57d)
 
 ## 📺 Videos
 - [AWS re:Invent 2019: [REPEAT] Scaling up to your first 10 million users ](https://www.youtube.com/watch?v=kKjm4ehYiMs)
@@ -44,6 +54,7 @@
 - [Randy Shoup - Service Architectures at Scale Lessons from Google & eBay](https://www.youtube.com/watch?v=fhm4QnyWvUo)
 - [Cloud Native Objects for High Scale & Performance](https://www.youtube.com/watch?v=iE8cisVgoj8)
 - [Competing Consumers Pattern for Scalability | Message Queues](https://www.youtube.com/watch?v=xv6Ljbq6me8)
+
 ## 📚 Books
 - [Architecting for Scale: How to Maintain High Availability and Manage Risk in the Cloud 2nd Edition](https://www.amazon.com/Architecting-Scale-Maintain-Availability-Manage/dp/1492057177/)
 - [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/)

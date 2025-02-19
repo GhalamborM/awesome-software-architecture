@@ -23,7 +23,7 @@
 - [Evolving modular monoliths: 2. Breaking up your app into multiple solutions](https://www.thereformedprogrammer.net/evolving-modular-monoliths-2-breaking-up-your-app-into-multiple-solutions/)
 - [Why using Microservices or Monolith can be just a detail?](https://threedots.tech/post/microservices-or-monolith-its-detail/)
 - [Majestic Modular Monoliths](https://lukashajdu.com/post/majestic-modular-monolith/)
-- [SHARING DATA BETWEEN MODULES IN MODULAR MONOLITH](https://lukaszcoding.com/sharing-data-between-modules-in-modular-monolith/)
+- [SHARING DATA BETWEEN MODULES IN MODULAR MONOLITH](https://dev.to/lukaszreszke/sharing-data-between-modules-in-modular-monolith-50on)
 - [Event Modeling & Modular Monolith | From colored cards to code through TDD](https://zycienakodach.pl/event-modeling-modularny-monolit)
 - [Monolithic to Microservices Architecture with Patterns & Best Practices](https://medium.com/design-microservices-architecture-with-patterns/monolithic-to-microservices-architecture-with-patterns-best-practices-a768272797b2)
 - [Improving Monolith's Availability](https://www.ledjonbehluli.com/posts/improving_monoliths_availability/)
@@ -37,6 +37,15 @@
 - [Easy Modular Monolith — Part 4— Global Exception Handling](https://itnext.io/easy-modular-monolith-part-4-global-exception-handling-8355cc4905d4)
 - [Easy Modular Monolith — Part 5— JWT Authentication/Authorization](https://itnext.io/easy-modular-monolith-part-5-jwt-authentication-authorization-f7a0a275226f)
 - [Easy Modular Monolith — Part 6 — Synchronous communication between modules](https://itnext.io/easy-modular-monolith-part-5-synchronous-communication-between-modules-7af876f06c16)
+- [Build the modular monolith first](https://www.fearofoblivion.com/build-a-modular-monolith-first)
+- [Thoughts on “Modular Monoliths”](https://jeremydmiller.com/2024/04/01/thoughts-on-modular-monoliths/)
+- [Actually Talking about Modular Monoliths](https://jeremydmiller.com/2024/04/08/actually-talking-about-modular-monoliths/)
+- [Modular Monoliths and the “Critter Stack”](https://jeremydmiller.com/2024/04/15/modular-monoliths-and-the-critter-stack/)
+- [Breaking It Down: How to Migrate Your Modular Monolith to Microservices](https://www.milanjovanovic.tech/blog/breaking-it-down-how-to-migrate-your-modular-monolith-to-microservices)
+- [Modular Monolith - A Gentle Introduction](https://www.dandoescode.com/blog/modular-monolith/a-gentle-introduction)
+- [Modular Monolith - Implementation Deep Dive](https://www.dandoescode.com/blog/modular-monolith/implementation-deep-dive)
+- [Modular Monolith - Simplifying the Inner Development Loop with .NET Aspire](https://www.dandoescode.com/blog/modular-monolith/simplifying-the-inner-dev-loop-with-aspire)
+
 ## 📺 Videos
 - [GOTO 2018 • Modular Monoliths • Simon Brown](https://www.youtube.com/watch?v=5OjqD-ow8GE)
 - [Modular monoliths (Simon Brown) - 2016](https://www.youtube.com/watch?v=kbKxmEeuvc4)
@@ -50,7 +59,6 @@
 - [Deconstructing the Monolith (Shopify Unite Track 2019)](https://www.youtube.com/watch?v=ISYKx8sa53g)
 - [Message Driven Architecture to DECOUPLE a Monolith](https://www.youtube.com/watch?v=bxGkavGaEiM)
 - [Long live the Monolith! Monolithic Architecture != Big Ball of Mud](https://www.youtube.com/watch?v=VGShtGU3hOc)
-- [Mini Course #2 Modular Monolith - Devmentors](https://www.youtube.com/watch?v=MkdutzVB3pY)
 - [Scaling Monolithic Applications](https://www.youtube.com/watch?v=qZB_uGuWvUI)
 - [Creating a Loosely Coupled Monolith](https://www.youtube.com/watch?v=48C-RsEu0BQ)
 - [START with a Monolith, NOT Microservices](https://www.youtube.com/watch?v=Z_pj1mUDKdw)
@@ -58,34 +66,28 @@
 - [Asynchronous Messaging in a Loosely Coupled Monolith](https://www.youtube.com/watch?v=Qi6TaIYprqc)
 - [Splitting up a Monolith to (micro)Services](https://www.youtube.com/watch?v=Inscvakv5XI)
 - [Avoiding a Big Ball of Mud! Coupling in a Monolith](https://www.youtube.com/watch?v=MLjjWkN44q4)
+- [Building that glorious monolith. And carving it too. - Glenn F. Henriksen - NDC Oslo 2022](https://youtu.be/uOIi0K_mpUo) ⭐ 
+
 ## 🚀 Samples
 - [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith application with Domain-Driven Design approach.
 - [kgrzybek/modular-monolith-with-ddd-fe-react](https://github.com/kgrzybek/modular-monolith-with-ddd-fe-react) - FrontEnd React application for Modular Monolith With DDD repository and system
-- [phongnguyend/Practical.CleanArchitecture](https://github.com/phongnguyend/Practical.CleanArchitecture) - Asp.Net Core 5 Clean Architecture (Microservices, Modular Monolith, Monolith) samples (+Blazor, Angular 11, React 17, Vue 2.6), Domain-Driven Design, CQRS, Event Sourcing, SOLID, Asp.Net Core Identity Custom Storage, Identity Server 4 Admin UI, Entity Framework Core, Selenium E2E Testing, SignalR Notification, Hangfire Tasks Scheduling
+- [phongnguyend/Practical.CleanArchitecture](https://github.com/phongnguyend/Practical.CleanArchitecture) - Asp.Net Core 5 Clean Architecture (Microservices, Modular Monolith, Monolith) samples.
 - [dcomartin/LooselyCoupledMonolith](https://github.com/dcomartin/LooselyCoupledMonolith)
 - [trueai-org/module-shop](https://github.com/trueai-org/module-shop)
 - [thangchung/coolstore-moduliths](https://github.com/thangchung/coolstore-moduliths)
 - [thangchung/blog-core](https://github.com/thangchung/blog-core) - Modular blog using Blazor with clean domain-driven design patterns
 - [ddd-by-examples/library](https://github.com/ddd-by-examples/library) - A comprehensive Domain-Driven Design example with problem space strategic analysis and various tactical patterns.
 - [simplcommerce/SimplCommerce](https://github.com/simplcommerce/SimplCommerce) - A simple, cross platform, modularized ecommerce system built on .NET Core
-- [spetz/NPost](https://github.com/spetz/NPost) - Modular Monolith sample
-- [devmentors/Cine](https://github.com/devmentors/Cine) - Modular monolith in .NET Core
-- [Trill-modular-monolith](https://github.com/devmentors/Trill-modular-monolith)
-- [spetz/Confab-training](https://github.com/spetz/Confab-training)
 - [anton-liauchuk/educational-platform](https://github.com/anton-liauchuk/educational-platform) - Modular Monolith Java application with DDD
 - [VirtoCommerce/vc-storefront](https://github.com/VirtoCommerce/vc-storefront) - VirtoCommerce Storefront for ASP.NET Core 3.1 repository
 - [grandnode/grandnode](https://github.com/grandnode/grandnode) - Free and Open Source Ecommerce Shopping Cart solution based on ASP.NET CORE and MongoDB
 - [smartstore/SmartStoreNET](https://github.com/smartstore/SmartStoreNET) - Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution
 - [nopSolutions/nopCommerce](https://github.com/nopSolutions/nopCommerce) - The most popular open-source eCommerce shopping cart solution based on ASP.NET Core
 - [ThreeDotsLabs/monolith-microservice-shop](https://github.com/ThreeDotsLabs/monolith-microservice-shop) - Source code for https://threedots.tech/post/microservices-or-monolith-its-detail/ article.
-- [fluentpos/fluentpos](https://github.com/fluentpos/fluentpos) - Open Source Point Of Sales and Inventory Management Solution built with ASP.NET Core 5.0 WebAPI and Blazor Web Assembly.
 - [marcinstelmach/AwesomeBank](https://github.com/marcinstelmach/AwesomeBank) - Bank system in .NET 5.0 using DDD, CQRS, modular monolith architecture
 - [stemmlerjs/ddd-forum](https://github.com/stemmlerjs/ddd-forum) - Hacker news-inspired forum app built with TypeScript using DDD practices from solidbook.io.
 - [grandnode/grandnode2](https://github.com/grandnode/grandnode2) - Open source, headless, multi-tenant eCommerce platform built with .NET Core, MongoDB, AWS DocumentDB, Azure CosmosDB, Vue.js.
 - [DarekModzelewski/Contoso-University-DDD](https://github.com/DarekModzelewski/Contoso-University-DDD)
-- [devmentors/modular-framework](https://github.com/devmentors/modular-framework)
-- [devmentors/Inflow](https://github.com/devmentors/Inflow)
-- [devmentors/NPay](https://github.com/devmentors/NPay) - NPay is a simple virtual payments app built as a modular monolith.
 - [ttulka/ddd-example-ecommerce](https://github.com/ttulka/ddd-example-ecommerce) - Domain-driven design example in Java with Spring framework
 - [mgce/modular-monolith-nodejs](https://github.com/mgce/modular-monolith-nodejs) - A project showing the implementation of the modular monolith architecture in Node.js.
 - [drminnaar/chinook](https://github.com/drminnaar/chinook) - A playground for demonstrating concepts such as architecture, design, dotnet core, typescript, react, database and docker
@@ -93,3 +95,10 @@
 - [DijanaPenic/DDD-VShop](https://github.com/DijanaPenic/DDD-VShop) - VShop is a sample .NET 6 application built as Modular Monolith with Domain-Driven Design (DDD) approach. Each module is an independent vertical slice with its custom architecture.
 - [Ridikk12/ModularMonolith](https://github.com/Ridikk12/ModularMonolith)
 - [thangchung/coffeeshop-modular](https://github.com/thangchung/coffeeshop-modular) - .NET coffee shop application with modular approach
+- [chrisklug/asp-net-modular-monolith](https://github.com/chrisklug/asp-net-modular-monolith) 
+- [Nairda015/IGroceryStore](https://github.com/Nairda015/IGroceryStore) - IGroceryStore - Loosely coupled monolith app
+- [evolutionary-architecture/evolutionary-architecture-by-example](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example) ⭐ - Navigate the complex landscape of .NET software architecture with our step-by-step, story-like guide. Unpack the interplay between modular monoliths, microservices, domain-driven design, and various architectural patterns
+- [kamilbaczek/Estimation-Tool](https://github.com/kamilbaczek/Estimation-Tool) ⭐ - Modular monolith architecture example in .NET. Estimation Tool is tool to optimize estimation process in IT company.
+- [baranacikgoz/modular-monolith-ddd-vsa-webapi](https://github.com/baranacikgoz/modular-monolith-ddd-vsa-webapi) - A .NET 8 Webapi boilerplate with Modular Monolith approach, Domain-Driven Design and Vertical Slices architecture along with Clean Architecture principles per feature
+- [kamilbaczek/Modular-monolith-by-example](https://github.com/kamilbaczek/Modular-monolith-by-example) - Modular monolith architecture example in .NET. Estimation Tool is tool to optimize estimation process in IT company.
+- [PeterKneale/modular_monolith_saas](https://github.com/PeterKneale/modular_monolith_saas)

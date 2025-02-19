@@ -12,12 +12,17 @@
 - [ddd-crew/ddd-starter-modelling-process](https://github.com/ddd-crew/ddd-starter-modelling-process)
 - [ddd-crew/core-domain-charts](https://github.com/ddd-crew/core-domain-charts)
 - [Sairyss/domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon)
+- [ddd-crew/context-mapping](https://github.com/ddd-crew/context-mapping)
+- [ddd-crew/welcome-to-ddd](https://github.com/ddd-crew/welcome-to-ddd)
 
 ## 📕 Articles
 - [Design a DDD-oriented microservice](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) 
 - [PPPDDD.1 – What is Domain Driven Design?](https://herbertograca.com/2016/08/15/pppddd-1-what-is-domain-driven-design/) 
 - [PPPDDD.2 – Distilling the Problem Domain](https://herbertograca.com/2016/08/22/pppddd-2-distilling-the-problem-domain/) 
-- [PPPDDD.3 – Focusing on the Core Domain](https://herbertograca.com/2016/10/03/pppddd-3-focusing-on-the-core-domain/) 
+- [PPPDDD.3 – Focusing on the Core Domain](https://herbertograca.com/2016/10/03/pppddd-3-focusing-on-the-core-domain/)
+- [DDD Part 1: Strategic Domain-Driven Design](https://vaadin.com/blog/ddd-part-1-strategic-domain-driven-design)
+- [DDD Part 2: Tactical Domain-Driven Design](https://vaadin.com/blog/ddd-part-2-tactical-domain-driven-design)
+- [DDD Part 3: Domain-Driven Design and the Hexagonal Architecture](https://vaadin.com/blog/ddd-part-3-domain-driven-design-and-the-hexagonal-architecture)
 - [A Brief Intro to Clean Architecture, Clean DDD, and CQRS](https://blog.jacobsdata.com/2020/02/19/a-brief-intro-to-clean-architecture-clean-ddd-and-cqrs) 
 - [A Basic Intro to Domain-Driven Design](https://blog.jacobsdata.com/2020/02/10/a-basic-intro-to-domain-driven-design) 
 - [A Template for Clean Domain-Driven Design Architecture](https://blog.jacobsdata.com/2020/03/02/a-clean-domain-driven-design-architectural-template) 
@@ -93,6 +98,14 @@
 - [Modeling Relationships in a DDD Way](https://enterprisecraftsmanship.com/posts/modeling-relationships-in-ddd-way/)
 - [How to create better code using Domain-Driven Design](https://www.altkomsoftware.com/blog/create-better-code-using-domain-driven-design/)
 - [DDD building blocks - Kamil Lelonek](https://blog.lelonek.me/ddd-building-blocks-for-ruby-developers-cdc6c25a80d2)
+- [Implementing Domain Driven Design](https://docs.abp.io/en/abp/4.0/Domain-Driven-Design-Implementation-Guide)
+- [Domain-Driven Design: Everything You Always Wanted to Know About it, But Were Afraid to Ask](https://medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask-a85e7b74497a) ⭐⭐
+- [Domain-Driven Design: A Walkthrough of Building an Aggregate](https://betterprogramming.pub/domain-driven-design-a-walkthrough-of-building-an-aggregate-c84113aa9975) ⭐
+- [Domain-Driven Design: Domain Events and Integration Events in .Net](https://betterprogramming.pub/domain-driven-design-domain-events-and-integration-events-in-net-5a2a58884aaa) ⭐
+- [Mastering Strategic Domain-Driven Design – 1. The Beginning](https://meaboutsoftware.com/2023/07/24/mastering-strategic-domain-driven-design-1-the-beginning/)
+- [Mastering Strategic Domain-Driven Design – 2. The Domain](https://meaboutsoftware.com/2023/08/06/mastering-strategic-domain-driven-design-2-the-domain/)
+- [Mastering Strategic Domain-Driven Design – 3. Draft of Subdomains](https://meaboutsoftware.com/2023/10/01/mastering-strategic-domain-driven-design-3-draft-of-subdomains/)
+- [Mastering Strategic Domain-Driven Design – 4. Tuning of Subdomains](https://meaboutsoftware.com/2023/11/26/mastering-strategic-domain-driven-design-4-tuning-of-subdomains/)
 
 ## 📺 Videos
 - [Java EE: Design Patterns and Architecture](https://www.linkedin.com/learning/java-ee-design-patterns-and-architecture/advantages-and-disadvantages-4)
@@ -108,6 +121,12 @@
 - [Vladimir Khorikov: DDD in a nutshell](https://www.youtube.com/watch?v=kPV1SkdSnhE)
 - [DDD as Low-Code](https://www.youtube.com/watch?v=yohu6qx8-dU)
 - [Is Domain-Driven Design Overrated? • Stefan Tilkov • GOTO 2021](https://www.youtube.com/watch?v=ZZp9RQEGeqQ)
+- [Do you have enough Complexity for a Domain Model (Domain Driven Design)?](https://www.youtube.com/watch?v=L1foFiqopIc)
+- [Getting modules right with Domain-driven Design by Michael Plöd - Spring I/O 2022 Sessions](https://www.youtube.com/watch?v=Q_0XW46IlHY)
+- [Hands-on case-study context mapping with Michael Plöd](https://www.youtube.com/watch?v=OthhRfqp-44)
+- [All our aggregates are wrong - Mauro Servienti](https://www.youtube.com/watch?v=hev65ozmYPI)
+- [DDD in large product portfolios - Andreas Pinhammer](https://www.youtube.com/watch?v=FzycqiJVioI)
+
 ## 🚀 Samples
 - [eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers) - Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 5, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor.
 - [kimcu-on-thenet/ddd-net-ef-core](https://github.com/kimcu-on-thenet/ddd-net-ef-core) - Self study: DDD, .net core, entity framework core
@@ -127,8 +146,6 @@
 - [educational-platform](https://github.com/anton-liauchuk/educational-platform) - Modular Monolith Java application with DDD
 - [coolstore-moduliths](https://github.com/thangchung/coolstore-moduliths) - The coolstore website on modular monolith approach
 - [modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd) - Full Modular Monolith application with Domain-Driven Design approach.
-- [Trill-modular-monolith](https://github.com/devmentors/Trill-modular-monolith)
-- [Confab-training](https://github.com/devmentors/Confab) - Confab is an open source project using modular monolith architecture written in 	
 - [coolstore-microservices](https://github.com/vietnam-devs/coolstore-microservices) - A full-stack .NET microservices build on Dapr and Tye
 - [smartstore/SmartStoreNET](https://github.com/smartstore/SmartStoreNET) - Open Source ASP.NET MVC Enterprise eCommerce Shopping Cart Solution
 - [smartstore/Smartstore](https://github.com/smartstore/Smartstore) - Open Source ASP.NET Core Enterprise eCommerce Shopping Cart Solution
@@ -142,10 +159,6 @@
 - [falberthen/EcommerceDDD](https://github.com/falberthen/EcommerceDDD) - A lightweight ASP.NET Core SPA (Angular) showcase of Domain-Driven Design, CQRS, and Event Sourcing.
 - [DevBetterCom/DevBetterWeb](https://github.com/DevBetterCom/DevBetterWeb) - A simple web application for devBetter
 - [baratgabor/MyWarehouse](https://github.com/baratgabor/MyWarehouse) - Clean Architecture and Domain Driven Design sample project based on C# 9 / .NET 5 / ASP.NET Core 5 / EF Core 5 & Angular 11 with Bootstrap.
-- [oskardudycz/EventSourcing.NetCore/ECommerce](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/ECommerce)
-- [oskardudycz/EventSourcing.NetCore/Sample/Tickets](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/Tickets)
-- [oskardudycz/EventSourcing.NetCore/Sample/MeetingsManagement](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/MeetingsManagement)
-- [oskardudycz/EventSourcing.NetCore/Sample/Warehouse](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/Warehouse)
 - [ThreeDotsLabs/wild-workouts-go-ddd-example](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example?utm_source=about-wild-workouts) - Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring of a Go project.
 - [peholmst/DDDExample](https://github.com/peholmst/DDDExample) - Example application for my TechLunch @ Vaadin about DDD and the Hexagonal Architecture
 - [EnLabSoftware/HRManagement](https://github.com/EnLabSoftware/HRManagement)
@@ -164,14 +177,12 @@
 - [ttulka/ddd-example-ecommerce-microservices](https://github.com/ttulka/ddd-example-ecommerce-microservices) - Domain-driven design microservices example
 - [marcinstelmach/Ecommerce.Api](https://github.com/marcinstelmach/Ecommerce.Api) - Ecommerce in .net core 2.2, C#, MediaTr, CQRS, DDD, Autofac, DI, Entity Framework Core, Memory Cache, Serilog
 - [thiagocruzrj/E-commerce-DDD](https://github.com/thiagocruzrj/E-commerce-DDD) - DDD applied in E-commerce context.
-- [devmentors/Inflow](https://github.com/devmentors/Inflow)
 - [kalintsenkov/BettingSystem](https://github.com/kalintsenkov/BettingSystem) - ASP.NET Core | Domain-Driven Design | Clean Architecture
 - [VasilisGaitanidis/master-containerized-microservices](https://github.com/VasilisGaitanidis/master-containerized-microservices) - This repo contains a sample application based on a fictional eCommerce. The primary goal of this sample is to demonstrate several software-architecture concepts like: Clean Architecture, Microservices, CQRS, Event Sourcing, Publish-Subscribe Architecture, Domain Driven Design (DDD). Currently this is a work in progress.
 - [MesutAtasoy/Joker](https://github.com/MesutAtasoy/Joker) - An example of microservices container based application which implemented different approaches within each microservice (DDD, CQRS, Simple CRUD)
 - [canperk/NorthindDomainDrivenDesignSample](https://github.com/canperk/NorthindDomainDrivenDesignSample) - DDD with Northwind Sample Database
 - [thangchung/northwind-dotnet](https://github.com/thangchung/northwind-dotnet) - A full-stack .NET 6 Microservices build on Minimal APIs and C# 10
 - [sedatkocaer34/NorthwindDDDSample](https://github.com/sedatkocaer34/NorthwindDDDSample)
-- [devmentors/NPay](https://github.com/devmentors/NPay) - NPay is a simple virtual payments app built as a modular monolith.
 - [andresantarosa/CleanArchitectureExample](https://github.com/andresantarosa/CleanArchitectureExample) - CleanArchitectureExample Project
 - [asc-lab/better-code-with-ddd](https://github.com/asc-lab/better-code-with-ddd) - This repository contains code that accompanies presentation ASC LAB team gave at meetup about “Creating better code with Domain Driven Design”.
 - [wkrzywiec/library-hexagonal](https://github.com/wkrzywiec/library-hexagonal) - An example application written in Hexagonal (Ports and Adapter) architecture
@@ -190,6 +201,25 @@
 - [ddd-by-examples/cinema](https://github.com/ddd-by-examples/cinema) - Cinema playground - example repo from reserving seats with different rules
 - [pdevito3/PeakLimsApi](https://github.com/pdevito3/PeakLimsApi) - A complex DDD based web API to model the accessioning workflow within a LIMS.
 - [MarkNijhof/Fohjin](https://github.com/MarkNijhof/Fohjin) - This is a personal sand box
+- [CodelyTV/csharp-ddd-skeleton](https://github.com/CodelyTV/csharp-ddd-skeleton) - C# DDD Skeleton: Bootstrap your new C# projects applying Hexagonal Architecture and Domain-Driven Design patterns
+- [klimisa/aggregate-implementation-patterns-csharp](https://github.com/klimisa/aggregate-implementation-patterns-csharp) - Aggregate implementations workshop port to C#
+- [oskardudycz/EventSourcing.NetCore/Sample/HotelManagement](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/HotelManagement)
+- [AntonioFalcaoJr/EDA.CleanArch.DDD.CQRS.EventSourcing](https://github.com/AntonioFalcaoJr/EDA.CleanArch.DDD.CQRS.EventSourcing) - The main objective of this cloud-native project is to represent the state of the art of a distributed, reliable, and highly scalable system by interpreting the most relevant principles of Reactive Domain Driven Design.
+- [matt-bentley/DDDMart](https://github.com/matt-bentley/DDDMart) - Sample eCommerce application using Domain Driven Design
+- [Nairda015/IGroceryStore](https://github.com/Nairda015/IGroceryStore) - IGroceryStore - Loosely coupled monolith app
+- [bitloops/ddd-hexagonal-cqrs-es-eda](https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda) - Complete working example of using Domain Driven Design (DDD), Hexagonal Architecture, CQRS, Event Sourcing (ES), Event Driven Architecture (EDA), Behaviour Driven Development (BDD) using TypeScript and NestJS
+- [m-khooryani/OverCloudAirways](https://github.com/m-khooryani/OverCloudAirways)
+- [evolutionary-architecture/evolutionary-architecture-by-example](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example) ⭐ - Navigate the complex landscape of .NET software architecture with our step-by-step, story-like guide. Unpack the interplay between modular monoliths, microservices, domain-driven design, and various architectural patterns. 
+- [kamilbaczek/Estimation-Tool](https://github.com/kamilbaczek/Estimation-Tool) ⭐ - Modular monolith architecture example in .NET. Estimation Tool is tool to optimize estimation process in IT company.
+- [baranacikgoz/modular-monolith-ddd-vsa-webapi](https://github.com/baranacikgoz/modular-monolith-ddd-vsa-webapi) - A .NET 8 Webapi boilerplate with Modular Monolith approach, Domain-Driven Design and Vertical Slices architecture along with Clean Architecture principles per feature
+- [oskardudycz/EventSourcing.NetCore/ECommerce](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/ECommerce)
+- [oskardudycz/EventSourcing.NetCore/Sample/Tickets](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/Tickets)
+- [oskardudycz/EventSourcing.NetCore/Sample/MeetingsManagement](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/MeetingsManagement)
+- [oskardudycz/EventSourcing.NetCore/Sample/Warehouse](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/Warehouse) 
+- [EventSourcing.NetCore/tree/main/Sample/Warehouse.MinimalAPI](https://github.com/oskardudycz/EventSourcing.NetCore/tree/main/Sample/Warehouse.MinimalAPI) ⭐
+- [oskardudycz/kandddinsky2024](https://github.com/oskardudycz/kandddinsky2024) ⭐
+- [oskardudycz/slim-down-your-aggregate/tree/main/csharp/Original](https://github.com/oskardudycz/slim-down-your-aggregate) ⭐
+
 ## 📦 Libraries
 - [Eventuous/eventuous](https://github.com/Eventuous/eventuous) - Minimalistic Event Sourcing library for .NET
 - [xhafan/coreddd](https://github.com/xhafan/coreddd) - A set of open-source .NET libraries helping with domain-driven design (DDD) and CQRS
@@ -212,3 +242,6 @@
 - [Patterns, Principles, and Practices of Domain-Driven Design 1st Edition](https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709)
 - [Hands-On Domain-Driven Design with .NET Core: Tackling complexity in the heart of software by putting DDD principles into practice](https://www.amazon.com/Hands-Domain-Driven-Design-NET/dp/1788834097/ref=pd_vtp_5/137-5137322-0498527)
 - [Domain-Driven Design The First 15 Years Essays from the community](https://dddeurope.com/15years/)
+- [ABP - Implementing Domain Driven Design](https://abp.io/books/implementing-domain-driven-design)
+- [Domain Modeling Made Functional: Tackle Software Complexity with Domain-Driven Design and F#](https://www.amazon.com/Domain-Modeling-Made-Functional-Domain-Driven/dp/1680502549)
+- [Collaborative Software Design - How to facilitate domain modeling decisions](https://www.manning.com/books/collaborative-software-design)

@@ -53,8 +53,14 @@
 - [gRPC client-side load balancing](https://docs.microsoft.com/en-us/aspnet/core/grpc/loadbalancing)
 - [ASP.NET Core 6: Here is the best way to pass a JWT in the headers of a gRPC client](https://anthonygiretti.com/2022/08/15/asp-net-core-6-here-is-the-best-way-to-pass-a-jwt-in-the-headers-of-a-grpc-client/)
 - [ASP.NET Core 6: Handling gRPC exception correctly server side](https://anthonygiretti.com/2022/08/28/asp-net-core-6-handling-grpc-exception-correctly-server-side/)
-## 📹 Videos
+- [Testing ASP.NET Core gRPC services in JetBrains Rider](https://andrewlock.net/testing-aspnetcore-grpc-services-in-jetbrains-rider/)
+- [Sharing gRPC ProtoBuf contracts using a REST endpoint](https://devblogs.microsoft.com/premier-developer/sharing-grpc-protobuf-contracts-using-a-rest-endpoint/)
+- [How to share Protobuf definitions for gRPC Services?](https://mrico.eu/how-to-share-protobuf-for-grpc-services/)
+- [Sharing gRPC protobufs between microservices](https://jozefcipa.com/blog/sharing-grpc-protobufs-between-microservices/) ⭐
+- [Packaging Generated Code for gRPC Services](https://www.bugsnag.com/blog/libraries-for-grpc-services/) ⭐
+- [](https://medium.com/namely-labs/how-we-build-grpc-services-at-namely-52a3ae9e7c35)
 
+## 📹 Videos
 - [Bidirectional Streaming | gRPC in .NET 5](https://www.youtube.com/watch?v=wY4nMSUF9e0)
 - [Client Streaming | gRPC in .NET 5](https://www.youtube.com/watch?v=DNxdvRQ4qRQ)
 - [gRPC Server & Unary Calls | gRPC in .NET 5](https://www.youtube.com/watch?v=hp5FTB7PI9s)
@@ -69,8 +75,8 @@
 - [gRPC Load Balancing on Kubernetes - Jan Tattermusch, Google (Intermediate Skill Level)](https://www.youtube.com/watch?v=F2znfxn_5Hg)
 - [ASP.NET Community Standup - gRPC Updates in .NET 7](https://www.youtube.com/watch?v=ds27V6rNick)
 - [Where should you use gRPC? And where NOT to use it!](https://youtu.be/4SuFtQV8RCk)
-## Courses
-- [Secure .Net Microservices with IdentityServer4 OAuth2,OpenID](https://www.udemy.com/course/secure-net-microservices-with-identityserver4-oauth2openid/?couponCode=2E7C1D32B62DF23A5A7D)
+- [High-performance services with gRPC: What's new in .NET 7 | .NET Conf 2022](https://www.youtube.com/watch?v=et_2NBk4N4Y)
+- [gRPC Error handling in gRPC Bidirectional streams](https://www.youtube.com/watch?v=IT4OfN27D4c)
 
 ## 📦 Libraries
 
@@ -81,8 +87,11 @@
 - [Cysharp/MagicOnion](https://github.com/Cysharp/MagicOnion) - Unified Realtime/API framework for .NET platform and Unity.
 - [AnthonyGiretti/grpc-aspnetcore-validator](https://github.com/AnthonyGiretti/grpc-aspnetcore-validator) - Simple request message validator for grpc.aspnetcore
 - [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) - gRPC to JSON proxy generator following the gRPC HTTP spec
+- [bufbuild/buf](https://github.com/bufbuild/buf) - A new way of working with Protocol Buffers.
+
 ## 🚀 Samples
 
 - [aspnetrun/run-aspnet-grpc](https://github.com/aspnetrun/run-aspnet-grpc) - Using gRPC in Microservices for Building a high-performance Interservice Communication with .Net 5. See gRPC Microservices and Step by Step Implementation on .NET Course w/ discount
 - [jtattermusch/grpc-loadbalancing-kubernetes-examples](https://github.com/jtattermusch/grpc-loadbalancing-kubernetes-examples) - gRPC Load Balancing on Kubernetes examples
 - [wicharypawel/net-core-grpc-load-balance](https://github.com/wicharypawel/net-core-grpc-load-balance)
+- [AntonioFalcaoJr/EDA.CleanArch.DDD.CQRS.EventSourcing](https://github.com/AntonioFalcaoJr/EDA.CleanArch.DDD.CQRS.EventSourcing) - The main objective of this cloud-native project is to represent the state of the art of a distributed, reliable, and highly scalable system by interpreting the most relevant principles of Reactive Domain Driven Design.

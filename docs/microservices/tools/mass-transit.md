@@ -1,9 +1,10 @@
-# Mass Transit
+# MassTransit
 
 ## 📘 Resources
 - [MassTransit GitHub](https://github.com/MassTransit/MassTransit)
 
 ## 📕 Articles
+- [Pattern: Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html)
 - [MassTransit–Use record types for your message contracts](https://bartwullems.blogspot.com/2021/06/masstransituse-record-types-for-your.html)
 - [MassTransit 6–Serilog integration](https://bartwullems.blogspot.com/2020/01/masstransit-6serilog-integration.html)
 - [MassTransit–How to test consumers with dependencies](https://bartwullems.blogspot.com/2021/02/masstransithow-to-test-consumers-with.html)
@@ -17,7 +18,24 @@
 - [Under the hood](https://masstransit-project.com/understand/under-the-hood.html)
 - [Ability to exclude interfaces/classes from topic/exchange creation](https://github.com/MassTransit/MassTransit/issues/2018)
 - [Kafka - Riders](https://masstransit-project.com/usage/riders/kafka.html)
+- [MassTransit and MediatR – Part 1](https://markgossa.com/2022/06/masstransit-and-mediatr.html)
+- [MassTransit and MediatR – Part 2](https://markgossa.com/2022/06/masstransit-exponential-back-off.html)
+- [MassTransit and MediatR – Part 3](https://markgossa.com/2022/07/masstransit-mediatr-dead-letter-invalid-messages.html)
+- [ASP.NET Correlation ID](https://markgossa.com/2022/05/asp-net-correlation-id.html)
+- [Error Handling and Message Redelivery in MassTransit](https://www.gokhan-gokalp.com/en/messaging-yapilarinda-masstransit-ile-error-ve-redeliver-handling/)
+- [Building a More Useful Outbox for Reliable Messaging](https://jeremydmiller.com/2022/06/16/building-a-more-useful-outbox-for-reliable-messaging/)
+- [MassTransit Testing](https://masstransit.io/documentation/concepts/testing)
+- [MassTransit observability](https://masstransit.io/documentation/configuration/observability)
+- [A better Masstransit Test harness](https://andersmalmgren.com/2022/08/17/a-better-masstransit-test-harness/)
+- [RabbitMQ Transport](https://masstransit.io/documentation/transports/rabbitmq) ⭐
+- [A better Masstransit Test harness](https://andersmalmgren.com/2022/08/17/a-better-masstransit-test-harness/)
+- [Getting rid of the slow Masstransit test harness](https://andersmalmgren.com/2022/11/23/getting-rid-of-the-slow-masstransit-test-harness/)
+- [Messaging through a service bus in .NET using MassTransit part 5: failures](https://dotnetcodr.com/2016/09/28/messaging-through-a-service-bus-in-net-using-masstransit-part-5-failures/)
+- [Messaging through a service bus in .NET using MassTransit part 7: intercepting messages](https://dotnetcodr.com/2016/10/04/messaging-through-a-service-bus-in-net-using-masstransit-part-7-intercepting-messages/)
+- [Messaging through a service bus in .NET using MassTransit part 6: message types and inheritance support](https://dotnetcodr.com/2016/10/06/messaging-through-a-service-bus-in-net-using-masstransit-part-8-observing-events-in-the-bus/)
+
 ## 📺 Videos
+
 - [MassTransit–Youtube videos](https://bartwullems.blogspot.com/2020/07/masstransityoutube-videos.html)
 - [Modern .NET Messaging using MassTransit](https://www.youtube.com/watch?v=jQNQDLv7QmU)
 - [.NET Microservices Basics Course](https://youtu.be/ByYyk8eMG6c?t=18839)
@@ -26,11 +44,31 @@
 - [MassTransit and RabbitMQ - Playlist - Garry Taylor](https://www.youtube.com/playlist?list=PL8vZpHuqa_hOP8f1AT5r8FSP1fKm9ALZO)
 - [MassTransit Commute - Wire Tapping with RabbitMQ](https://www.youtube.com/watch?v=vNpXjy7psxs)
 - [MassTransit - The New Transactional Outbox](https://www.youtube.com/watch?v=3TjGnmLno_A)
+- [MassTransit Fault Handling](https://www.youtube.com/watch?v=-lpGYnznbco)
+- [MassTransit Exception Handling, Retry Middleware](https://www.youtube.com/watch?v=f1Oa65U2OeQ)
+- [MassTransit Unit Testing](https://www.youtube.com/watch?v=Cx-Mc0DCpfE)
+- [MassTransit Season 2 - Unit Testing with PostgreSQL and Entity Framework](https://www.youtube.com/watch?v=yfRRqPtqkgM)
+- [MassTransit Testing with Web Application Factory](https://www.youtube.com/watch?v=Uzme7vInDz0)
+- [MassTransit Commute - Error Queue](https://www.youtube.com/watch?v=3TMKUu7c4lc)
+- [MassTransit Fault Handling](https://www.youtube.com/watch?v=-lpGYnznbco)
+- [MassTransit Exception Handling, Retry Middleware](https://www.youtube.com/watch?v=f1Oa65U2OeQ)
+- [Build Clean Messaging in .NET with MassTransit](https://www.youtube.com/watch?v=4FFYefcx4Bg)
+- [MassTransit - The New Transactional Outbox](https://www.youtube.com/watch?v=3TjGnmLno_A)
+- [OSS Power-Ups: MassTransit](https://www.youtube.com/watch?v=sbt9p7jqe74)
+- [MassTransit Message Contract Sharing using NuGet](https://www.youtube.com/watch?v=5i_VQBYvTIQ)
+- [Versioning your MassTransit message contracts](https://www.youtube.com/watch?v=PNNxJthctgk)
+- [TestHarnes and OpenTelemetry](https://youtu.be/7PM9XUAAMtA)
+- [MassTransit - Publish vs. Send, Commands](https://www.youtube.com/watch?v=byceLITKaIk)
+
 ## 📦 Libraries
+
 - [GokGokalp/MetroBus](https://github.com/GokGokalp/MetroBus) - Lightweight messaging wrapper of MassTransit
 - [NCodeGroup/MassTransit.Extensions.Hosting](https://github.com/NCodeGroup/MassTransit.Extensions.Hosting) - MassTransit configuration extensions using Microsoft.Extensions.Hosting.IHostedService and Microsoft.Extensions.DependencyInjection.
 - [phatboyg/GreenPipes](https://github.com/phatboyg/GreenPipes) - An asynchronous pipe implementation for the Task Parallel Library
+
 ## 🚀 Samples
+
+- [MassTransit/Sample-Twitch](https://github.com/MassTransit/Sample-Twitch)
 - [marco-bue/masstransit-microservices](https://github.com/marco-bue/masstransit-microservices) - A sample on how to utilize MassTransit to do asynchronous communication between microservices
 - [jbw/TooBigToFailBurgerShop](https://github.com/jbw/TooBigToFailBurgerShop) - .NET Microservice Reference Application. It's also an over-engineered burger shop!
 - [kalintsenkov/BettingSystem](https://github.com/kalintsenkov/BettingSystem) - ASP.NET Core | Domain-Driven Design | Clean Architecture
@@ -46,3 +84,6 @@
 - [danmalcolm/masstransit-kafka-demo](https://github.com/danmalcolm/masstransit-kafka-demo) - Demonstrates use of MassTransit Kafka rider to produce and consume messages, including support for multiple message types on a single topic
 - [MassTransit/Sample-GettingStarted](https://github.com/MassTransit/Sample-GettingStarted)
 - [MassTransit/Sample-Outbox](https://github.com/MassTransit/Sample-Outbox)
+- [markgossa/Reference-Event-Driven-Architecture](https://github.com/markgossa/Reference-Event-Driven-Architecture)
+- [MassTransit/Sample-JobConsumers](https://github.com/MassTransit/Sample-JobConsumers)
+- [MassTransit/Sample-Kafka](https://github.com/MassTransit/Sample-Kafka)

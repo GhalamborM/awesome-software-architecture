@@ -14,6 +14,8 @@
 - [When to validate commands in CQRS?](https://enterprisecraftsmanship.com/2019/02/20/validate-commands-cqrs/) 
 - [Exceptions for flow control in C#](https://enterprisecraftsmanship.com/posts/exceptions-for-flow-control/) 
 - [Fail Fast principle](https://enterprisecraftsmanship.com/posts/fail-fast-principle/) 
+- [Functional C#: Primitive obsession](https://enterprisecraftsmanship.com/posts/functional-c-primitive-obsession/) ⭐
+- [Functional C#: Non-nullable reference types](https://enterprisecraftsmanship.com/posts/functional-c-non-nullable-reference-types/) ⭐
 - [REST API response codes: 400 vs 500](https://enterprisecraftsmanship.com/posts/rest-api-response-codes-400-vs-500/)
 - [Functional C# Handling failures, input errors](https://enterprisecraftsmanship.com/posts/functional-c-handling-failures-input-errors/) 
 - [Prefer Custom Exceptions to Framework Exceptions](https://ardalis.com/prefer-custom-exceptions-to-framework-exceptions/)
@@ -30,9 +32,15 @@
 - [Advanced error handling techniques](https://enterprisecraftsmanship.com/posts/advanced-error-handling-techniques/)
 - [Combining ASP.NET Core validation attributes with Value Objects](https://enterprisecraftsmanship.com/posts/combining-asp-net-core-attributes-with-value-objects/)
 - [Always-Valid Domain Model](https://enterprisecraftsmanship.com/posts/always-valid-domain-model/)
-## 📦 Libraries
+- [eShopOnWeb Architecture (3/16) – uses custom exceptions to more explicitly express what has gone wrong](https://davecallan.com/eshoponweb-architecture-3-16-uses-custom-exceptions-to-more-explicitly-express-what-has-gone-wrong/)
+- [How to validate business logic](https://event-driven.io/en/how_to_validate_business_logic/) ⭐
+- [Explicit validation in C# just got simpler!](https://event-driven.io/en/explicit_validation_in_csharp_just_got_simpler/) ⭐
+- [Notes about C# records and Nullable Reference Types](https://event-driven.io/en/notes_about_csharp_records_and_nullable_reference_types/) ⭐
+- [Exploring Advanced Error Handling Patterns with Event Driven Architecture Part I](https://medium.com/ssense-tech/exploring-advanced-error-handling-patterns-with-event-driven-architecture-part-i-e2f37741d904)
+- [DDD: Business Logic & Exceptions in Entities](https://mbarkt3sto.hashnode.dev/ddd-business-logic-exceptions-in-entities)
 
-- [GuardClauses](https://github.com/ardalis/GuardClauses) - A simple package with guard clause extensions.
+## 📦 Libraries
+- [ardalis/GuardClauses](https://github.com/ardalis/GuardClauses) - A simple package with guard clause extensions.
 - [danielwertheim/Ensure.That](https://github.com/danielwertheim/Ensure.That) - Guard clause project for .NET
 - [proudmonkey/AutoWrapper](https://github.com/proudmonkey/AutoWrapper)
 - [khellang/Middleware.ProblemDetails](https://github.com/khellang/Middleware/tree/master/src/ProblemDetails) - Various ASP.NET Core middleware

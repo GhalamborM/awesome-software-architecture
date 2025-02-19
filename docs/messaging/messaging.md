@@ -2,23 +2,18 @@
 # Messaging 
 
 ## 📘 Resources
+- [DDD and Messaging Architectures](https://verraes.net/2019/05/ddd-msg-arch/)
 - [clemensv/messaging](https://github.com/clemensv/messaging) - Resource collection for messaging and eventing
 - [Messaging Playlist - CodeOpinion](https://www.youtube.com/playlist?list=PLThyvG1mlMzm2FyVpKDiU2c7VtrB2Zezg)
-- [DDD and Messaging Architectures](https://verraes.net/2019/05/ddd-msg-arch/)
 - [Martin Kleppmann Yotube](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos)
-- [Sairyss/distributed-systems-topics](https://github.com/Sairyss/distributed-systems-topics) - Topics and resources related to distributed systems, system design, microservices, scalability and performance, etc
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
-## 📕 Articles
 
-- [Messaging patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/messaging) 
+## 📕 Articles
 - [Communication in a microservice architecture](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture)
 - [Asynchronous message-based communication](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication) 
 - [Modular Monolith: Integration Styles](http://www.kamilgrzybek.com/tag/messaging/) 
 - [Marrying RESTful HTTP with Asynchronous and Event-Driven Services](https://sookocheff.com/post/api/marrying-restful-http-with-asynchronous-design/)
 - [DDD and Messaging Architectures](https://verraes.net/2019/05/ddd-msg-arch/) 
 - [Asynchronous Messaging Patterns](https://blogs.mulesoft.com/api-integration/patterns/asynchronous-messaging-patterns/)
-- [Messaging Patterns Overview](https://www.enterpriseintegrationpatterns.com/patterns/messaging/)
-- [Service Activator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingAdapter.html)
 - [Message Properties](https://codeopinion.com/message-properties/)
 - [Message Naming Guidelines](https://codeopinion.com/message-naming-guidelines/)
 - [Organizing (Commands, Events & Handlers) in Microservices](https://codeopinion.com/organizing-commands-events-handlers-in-microservices/)
@@ -62,7 +57,7 @@
 - [Patterns for Decoupling in Distributed Systems: Explicit Public Events](http://verraes.net/2019/05/patterns-for-decoupling-distsys-explicit-public-events/)
 - [Event immutability and dealing with change](https://www.eventstore.com/blog/event-immutability-and-dealing-with-change)
 - [Transient fault handling](https://docs.microsoft.com/en-us/azure/architecture/best-practices/transient-faults)
-- [SHARING DATA BETWEEN MODULES IN MODULAR MONOLITH](https://lukaszcoding.com/sharing-data-between-modules-in-modular-monolith/)
+- [SHARING DATA BETWEEN MODULES IN MODULAR MONOLITH](https://dev.to/lukaszreszke/sharing-data-between-modules-in-modular-monolith-50on)
 - [Comparing Techniques for Communicating Between Services](https://ardalis.com/comparing-techniques-communicating-between-services/)
 - [Bus or Queue](https://ardalis.com/bus-or-queue/?utm_sq=gn4zxe3o0t)
 - [Improving Monolith's Availability](https://www.ledjonbehluli.com/posts/improving_monoliths_availability/)
@@ -80,6 +75,13 @@
 - [Wire Tap Enterprise Integration Pattern](https://www.baeldung.com/wiretap-pattern)
 - [Wire Tap](https://www.enterpriseintegrationpatterns.com/WireTap.html)
 - [Message Ordering in Pub/Sub or Queues](https://codeopinion.com/message-ordering-in-pub-sub-or-queues/)
+- [Mapping event type by convention](https://event-driven.io/en/how_to_map_event_type_by_convention/)
+- [Distributed systems evolution: message contracts](https://milestone.topics.it/2022/07/04/messages-evolution.html)
+- [Back to Basics: commands, events, and messages](https://milestone.topics.it/2023/05/25/back-to-basics-messages.html)
+- [Define messages as POCO, interfaces, or records. Does it really matter?](https://milestone.topics.it/2023/10/31/defining-messages.html)
+- [Internal and external events, or how to design event-driven API](https://event-driven.io/en/internal_external_events/)
+- [How Discord Stores Trillions of Messages](https://discord.com/blog/how-discord-stores-trillions-of-messages)
+
 ## 📺 Videos
 
 - [Handling Concurrency with Message-IDs | Event Driven Architecture](https://www.youtube.com/watch?v=wefvl2ohiQc)
@@ -115,7 +117,12 @@
 - [Message Ordering in Pub/Sub or Queue](https://www.youtube.com/watch?v=ILEb5LsSf5w)
 - [Avoiding a QUEUE Backlog Disaster with Backpressure & Flow Control](https://www.youtube.com/watch?v=BIGiLJJlE08)
 - [Avoiding Batch Jobs by a message in the FUTURE](https://www.youtube.com/watch?v=zWgqj2OEKX8)
-- [Message deduplication | Messaging in distributed systems - DevMentors](https://www.youtube.com/watch?v=TuMtG_27Khg)
+- [Wolverine: Your Next Messaging Library](https://www.youtube.com/watch?v=EGwepoGG0CM)
+- [Clean Message Bus Consumers with MediatR in .NET](https://www.youtube.com/watch?v=wnqBmv1RJNE)
+- [Using Open Telemetry with the MassTransit Test Harness?](https://www.youtube.com/watch?v=7PM9XUAAMtA)
+- [MassTransit Message Contract Sharing using NuGet](https://www.youtube.com/watch?v=5i_VQBYvTIQ)
+- [Versioning your MassTransit message contracts](https://www.youtube.com/watch?v=PNNxJthctgk)
+  
 ## 📦 Libraries
 
 - [Enexure.MicroBus](https://github.com/Lavinski/Enexure.MicroBus) - MicroBus is a simple in process Mediator for .NET
@@ -177,11 +184,14 @@
 - [Eventuous/eventuous](https://github.com/Eventuous/eventuous) - Minimalistic Event Sourcing library for .NET
 - [christophe-mommer/CQELight](https://github.com/christophe-mommer/CQELight)
 - [Bullabs/Qitar](https://github.com/Bullabs/Qitar) - Domain Driven Design oriented application framework.
-- [devmentors/micro-framework](https://github.com/devmentors/micro-framework) - Micro framework is a set of helpful components for building the microservices applications.
 - [yang-xiaodong/Savorboard.CAP.InMemoryMessageQueue](https://github.com/yang-xiaodong/Savorboard.CAP.InMemoryMessageQueue) - In-Memory message queue for CAP
 - [osstotalsoft/nbb](https://github.com/osstotalsoft/nbb)
 - [liuhll/silky](https://github.com/liuhll/silky) - The Silky framework is designed to help developers quickly build a microservice development framework through simple code and configuration under the .net platform.
 - [JasperFx/wolverine](https://github.com/JasperFx/wolverine) - Next Generation .NET Command and Message Bus
+- [boyney123/eventcatalog](https://github.com/boyney123/eventcatalog) - Discover, Explore and Document your Event Driven Architectures powered by Markdown.
+- [EasyDesk/easydesk-clean-architecture](https://github.com/EasyDesk/easydesk-clean-architecture) - A microservice framework based on the Clean Architecture and the Domain Driven Design.
+- [dotnet/aspire](https://github.com/dotnet/aspire) - .NET Aspire is an opinionated, cloud ready stack for building observable, production ready, distributed applications
+
 ## 📚 Books
 - [Enterprise Integration Patterns](https://amazon.com/o/asin/0321200683/ref=nosim/enterpriseint-20)
 - [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/)
